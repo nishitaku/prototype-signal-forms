@@ -1,0 +1,18 @@
+<div class="root">
+  @let friend = this.friend();
+  <mat-form-field appearance="outline">
+    <mat-label>Name</mat-label>
+    <input [control]="friend.name" matInput>
+    @if(!friend.name().valid()){
+      <mat-error>{{ friend.name().errors()[0].kind}}</mat-error>
+    }
+  </mat-form-field >
+
+  <mat-form-field appearance="outline">
+    <mat-label>Email</mat-label>
+    <input [control]="friend.email" matInput>
+    @if(!friend.email().valid()){
+      <mat-error>{{ friend.email().errors()[0].kind}}</mat-error>
+    }
+  </mat-form-field>
+</div>
