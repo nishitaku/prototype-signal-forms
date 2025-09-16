@@ -15,7 +15,11 @@ import {
   validate,
   ValidationError,
 } from '../signal-forms';
-import { Friend, FriendComponent, friendSchema } from './components/friend/friend';
+import {
+  Friend,
+  FriendComponent,
+  friendSchema,
+} from './components/friend/friend';
 import { confirmationPasswordValidator } from './validators/confirm-password-validator';
 import { emailValidator } from './validators/email-validator';
 
