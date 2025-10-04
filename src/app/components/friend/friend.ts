@@ -3,7 +3,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import {
   Control,
-  Field,
+  type Field,
   required,
   schema,
   validate,

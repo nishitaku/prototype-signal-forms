@@ -12,11 +12,11 @@ import {
   form,
   required,
   submit,
+  type ValidationError,
   validate,
-  ValidationError,
 } from '../signal-forms';
 import {
-  Friend,
+  type Friend,
   FriendComponent,
   friendSchema,
 } from './components/friend/friend';
