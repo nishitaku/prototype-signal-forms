@@ -1,7 +1,13 @@
 import { Component, input } from '@angular/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { Control, Field, required, schema, validate } from '../../../signal-forms';
+import {
+  Control,
+  type Field,
+  required,
+  schema,
+  validate,
+} from '../../../signal-forms';
 import { emailValidator } from '../../validators/email-validator';
 
 export interface Friend {

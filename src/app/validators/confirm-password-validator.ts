@@ -1,4 +1,8 @@
-import { FieldPath, FieldValidationResult, FieldValidator } from '../../signal-forms';
+import type {
+  FieldPath,
+  FieldValidationResult,
+  FieldValidator,
+} from '../../signal-forms';
 
 export function confirmationPasswordValidator(
   path: FieldPath<{ password: string }>
